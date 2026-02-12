@@ -112,8 +112,7 @@ static void VerifyEnvironment()
         }
     };
 
-    /** Remove deprecated CEF remote debugging file in place of virtually enabling it in memory */
-    RemoveDeprecatedFile(cefRemoteDebugging);
+    /** Ughhhh nope */
     /** Remove old shims folder (they've been added into process memory) */
     // RemoveDeprecatedFile(SystemIO::GetInstallPath() / "ext" / "data" / "shims");
 #elif defined(MILLENNIUM_32BIT)
