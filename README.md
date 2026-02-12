@@ -7,3 +7,6 @@ If you enjoy this tool, please consider starring the original project: https://g
 ## This is my personal fork with failsafes removed. The approach here is deemed insecure by the original developer. There will be no support provided for it. Don't bug the dev about it and don't expect them to fix issues present here.
 
 # You've been warned.
+
+Q: Why?
+A: The original Millenium release removes .cef-enable-remote-debugging file, which is essential for Decky Loader and similar tools to work. As mentioned here: https://github.com/SteamClientHomebrew/Millennium/issues/591 keeping this file is deemed insecure by the original developers. This fork simply removes the function to delete it on Steam's startup and does nothing else.
